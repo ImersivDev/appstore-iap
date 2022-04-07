@@ -57,7 +57,7 @@ class RenewalInfo
         string $originalTransactionId,
         ?int $priceIncreaseStatus,
         string $productId,
-        Time $signedDate,
+        Time $signedDate
     ) {
         $this->autoRenewProductId = $autoRenewProductId;
         $this->autoRenewStatus = $autoRenewStatus;
