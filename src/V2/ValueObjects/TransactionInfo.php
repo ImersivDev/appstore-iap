@@ -72,7 +72,7 @@ class TransactionInfo
         Time $signedDate,
         string $subscriptionGroupIdentifier,
         string $transactionId,
-        string $webOrderLineItemId,
+        string $webOrderLineItemId
     ) {
         $this->appAccountToken = $appAccountToken;
         $this->bundleId = $bundleId;
