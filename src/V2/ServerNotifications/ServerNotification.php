@@ -21,7 +21,7 @@ class ServerNotification
         ?string $subtypem,
         string $notificationUUID,
         ?string $notificationVersion,
-        ServerNotificationData $data,
+        ServerNotificationData $data
     ) {
         $this->notificationType = $notificationType;
         $this->subtypem = $subtypem;
