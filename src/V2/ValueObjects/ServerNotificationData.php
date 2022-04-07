@@ -29,7 +29,7 @@ class ServerNotificationData
         string $bundleVersion,
         string $environment,
         TransactionInfo $transactionInfo,
-        RenewalInfo $renewalInfo,
+        RenewalInfo $renewalInfo
     ) {
         $this->appAppleId = $appAppleId;
         $this->bundleId = $bundleId;
